@@ -418,7 +418,7 @@ body {
 
 .content-banner a {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #700606;
   color: #fcfafa;
   padding: 10px 20px;
   text-decoration: none;
@@ -437,7 +437,7 @@ body {
 
 .card-feature {
   background-color: #fff;
-  border: 1px solid #007bff;
+  border: 1px solid #700606;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
@@ -498,7 +498,7 @@ body {
 }
 
 .container-options span.active {
-  background-color: #007bff;
+  background-color: #700606;
   color: #fff;
 }
 
@@ -601,7 +601,7 @@ p {
 /* Estilos para el botón de enviar */
 button {
   padding: 10px 20px;
-  background-color: #007bff; /* Color de fondo del botón */
+  background-color: #700606; /* Color de fondo del botón */
   color: #fff; /* Color del texto del botón */
   border: none;
   border-radius: 5px;
@@ -609,7 +609,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+  background-color: #700606; /* Color de fondo del botón al pasar el mouse */
 }
 
 
