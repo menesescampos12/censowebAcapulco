@@ -43,12 +43,6 @@ const Form = () => {
     fetchAddress();
   }, []);
 
-  /*
-  TAREA
-  - Mandar los formuarios a nuestra base de datos
-  - Investigar los tipos de campos del formulario correctos
-  - En el campo y el campo dirección, mandar a traer información con useEffect
-  */
 
   return (
     <>
@@ -59,149 +53,145 @@ const Form = () => {
 
      
      
-    <section class="container top-products">
-        <h1 class="heading-1">Acapulco  Huracan Otis</h1>
-
-        <div class="container-options">
-            <span class="active">Pagos</span>
-            <span>resagados</span>
-            <span>censos</span>
+    <section className="container top-products">
+  <h1 className="heading-1">Acapulco  Huracan Otis</h1>
+  <div className="container-options">
+    <span className="active">Pagos</span>
+    <span>resagados</span>
+    <span>censos</span>
+  </div>
+  <div className="container-products">
+    <div className="card-product">
+      <div className="container-img">
+        <img src="images/pagos1.jpeg" alt="mejor productos" />
+        <span className="discount" />
+        <div className="button-group">
+          <span>
+            <i className="fa-regular fa-eye" />
+          </span>
+          <span>
+            <i className="fa-regular fa-heart" />
+          </span>
+          <span>
+            <i className="fa-solid fa-code-compare" />
+          </span>
         </div>
-
-        <div class="container-products">
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="images/pagos1.jpeg" alt="mejor productos" />
-                    <span class="discount"></span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3>pagos censos</h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <p class="price">inician los pagos </p>
-                </div>
-            </div>
-          
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="images/despensa1.jpeg" alt="inician los apoyos" />
-                    <span class="discount"></span>
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3>Despensas</h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <p class="price">apoyos acapulco de la secretaria de marina</p>
-                </div>
-            </div>
-    
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="images/despensa2.jpeg" alt="apoyos" />
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h3>Entrega de apoyos</h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <p class="price">sigen los apoyos </p>
-                </div>
-            </div>
-        
-            <div class="card-product">
-                <div class="container-img">
-                    <img src="images/despensa3.jpeg" alt="canastas basicas" />
-                    <div class="button-group">
-                        <span>
-                            <i class="fa-regular fa-eye"></i>
-                        </span>
-                        <span>
-                            <i class="fa-regular fa-heart"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-code-compare"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-card-product">
-                    <div class="stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>
-                    </div>
-                    <h3>Canastas basicas</h3>
-                    <span class="add-cart">
-                        <i class="fa-solid fa-basket-shopping"></i>
-                    </span>
-                    <p class="price">inician canastas basicas</p>
-                </div>
-            </div>
+      </div>
+      <div className="content-card-product">
+        <div className="stars">
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-regular fa-star" />
         </div>
-    </section> 
+        <h3>pagos censos</h3>
+        <span className="add-cart">
+          <i className="fa-solid fa-basket-shopping" />
+        </span>
+        <p className="price">inician los pagos </p>
+      </div>
+    </div>
+    <div className="card-product">
+      <div className="container-img">
+        <img src="images/despensa1.jpeg" alt="inician los apoyos" />
+        <span className="discount" />
+        <div className="button-group">
+          <span>
+            <i className="fa-regular fa-eye" />
+          </span>
+          <span>
+            <i className="fa-regular fa-heart" />
+          </span>
+          <span>
+            <i className="fa-solid fa-code-compare" />
+          </span>
+        </div>
+      </div>
+      <div className="content-card-product">
+        <div className="stars">
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-regular fa-star" />
+          <i className="fa-regular fa-star" />
+        </div>
+        <h3>Despensas</h3>
+        <span className="add-cart">
+          <i className="fa-solid fa-basket-shopping" />
+        </span>
+        <p className="price">apoyos acapulco de la secretaria de marina</p>
+      </div>
+    </div>
+    <div className="card-product">
+      <div className="container-img">
+        <img src="images/despensa2.jpeg" alt="apoyos" />
+        <div className="button-group">
+          <span>
+            <i className="fa-regular fa-eye" />
+          </span>
+          <span>
+            <i className="fa-regular fa-heart" />
+          </span>
+          <span>
+            <i className="fa-solid fa-code-compare" />
+          </span>
+        </div>
+      </div>
+      <div className="content-card-product">
+        <div className="stars">
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+        </div>
+        <h3>Entrega de apoyos</h3>
+        <span className="add-cart">
+          <i className="fa-solid fa-basket-shopping" />
+        </span>
+        <p className="price">sigen los apoyos </p>
+      </div>
+    </div>
+    <div className="card-product">
+      <div className="container-img">
+        <img src="images/despensa3.jpeg" alt="canastas basicas" />
+        <div className="button-group">
+          <span>
+            <i className="fa-regular fa-eye" />
+          </span>
+          <span>
+            <i className="fa-regular fa-heart" />
+          </span>
+          <span>
+            <i className="fa-solid fa-code-compare" />
+          </span>
+        </div>
+      </div>
+      <div className="content-card-product">
+        <div className="stars">
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-solid fa-star" />
+          <i className="fa-regular fa-star" />
+        </div>
+        <h3>Canastas basicas</h3>
+        <span className="add-cart">
+          <i className="fa-solid fa-basket-shopping" />
+        </span>
+        <p className="price">inician canastas basicas</p>
+      </div>
+    </div>
+  </div>
+</section>
+
      
 
     <iframe width="1100" height="400" src="https://www.youtube.com/embed/lOEFMSyGyiE?si=2H0Dcd9pB-gAr9ai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-    <div class="slider">
+    <div className="slider">
     <ul>
         <li>
         <img src="images/pagos1.jpeg" alt="mejor productos" />
@@ -221,11 +211,11 @@ const Form = () => {
 
       
     <section id="sobremi">
-    <div class="contenedor-foto">
+    <div className="contenedor-foto">
     <img src="images/10.png" alt="apoyos" />
     </div>
-    <div class="sobremi">
-        <p class="titulo-seccion">Sobre Nosotros</p>
+    <div className="sobremi">
+        <p className="titulo-seccion">Sobre Nosotros</p>
         <h3>La Secretaría de Bienestar inicia un camino de transformación para que las y los mexicanos tengamos una vida mejor. Junto al Gobierno de México hemos de empeñarnos en un cambio de fondo, en el que nuestra prioridad sea la gente y, de manera muy e...</h3>
         <p>bienestar de pagos</p>
     </div>
@@ -241,19 +231,19 @@ const Form = () => {
          
       <h1>Galerias de imagenes</h1>
   
-  <section class="gallery">
+  <section className="gallery">
     <img
       src="images/1.jpeg"
       alt="Gallery Img1"
-      class="gallery-img-1"
+      className="gallery-img-1"
     /><img
       src="images/2.jpeg"
       alt="Gallery Img2"
-      class="gallery-img-2"
+      className="gallery-img-2"
     /><img
       src="images/3.jpeg"
       alt="Gallery Img3"
-      class="gallery-img-3"
+      className="gallery-img-3"
 
       
     />
@@ -262,33 +252,33 @@ const Form = () => {
 
 
 
-      <section class="banner">
-    <div class="content-banner">
+      <section className="banner">
+    <div className="content-banner">
         <p>Secretaria de Bienestar</p>
         <h2>Dacnificados por el huracan Otis<br /></h2>
         <a href="">Dacnificados</a>
     </div>
 </section>
 
-<main class="main-content">
-    <section class="container container-features">
-        <div class="card-feature">
-            <i class="fa-solid fa-plane-up"></i>
-            <div class="feature-content">
+<main className="main-content">
+    <section className="container container-features">
+        <div className="card-feature">
+            <i className="fa-solid fa-plane-up"></i>
+            <div className="feature-content">
                 <span>Pagos para dacnificados</span>
                 <p>del 8 a l 24 de diciembre</p>
             </div>
         </div>
-        <div class="card-feature">
-            <i class="fa-solid fa-wallet"></i>
-            <div class="feature-content">
+        <div className="card-feature">
+            <i className="fa-solid fa-wallet"></i>
+            <div className="feature-content">
                 <span>programa de censados acapulco</span>
                 <p>Para ubicar el Módulo de Bienestar que te corresponde, consulta la página oficial: gob.mx/bienestar</p>
             </div>
         </div>
-        <div class="card-feature">
-            <i class="fa-solid fa-gift"></i>
-            <div class="feature-content">
+        <div className="card-feature">
+            <i className="fa-solid fa-gift"></i>
+            <div className="feature-content">
                 <span>Apoyo de pagos</span>
                 <p>Talón del censo –original–
 
@@ -300,9 +290,9 @@ const Form = () => {
             </div>
             
         </div>
-        <div class="card-feature">
-            <i class="fa-solid fa-headset"></i>
-            <div class="feature-content">
+        <div className="card-feature">
+            <i className="fa-solid fa-headset"></i>
+            <div className="feature-content">
                 <span>Apoyo para recontruccion</span>
                 <p>Talón del cobro de apoyo para limpieza –original</p>
             </div>
@@ -315,9 +305,9 @@ const Form = () => {
 
 
 
-      <div class="container">
-  <div class="row">
-    <div class="col-sm-3">
+      <div className="container">
+  <div className="row">
+    <div className="col-sm-3">
       <h2>Enlaces</h2>
       <ul>
         <li><a href="/temas">Temas</a></li>
@@ -330,18 +320,18 @@ const Form = () => {
         <li><a href="/sitemap">Mapa de sitio</a></li>
       </ul>
     </div>
-    <div class="col-sm-3">
+    <div className="col-sm-3">
       <h2>Contacto</h2>
       <p>Dudas e información: <a href="mailto:demandasocial@bienestar.gob.mx">demandasocial@bienestar.gob.mx</a></p>
       <h2>Síguenos en</h2>
-      <ul class="list-inline">
+      <ul className="list-inline">
         <li>
-          <a href="https://www.facebook.com/gobmexico" target="_blank" rel="noopener" class="footer" title="enlace a facebook abre en una nueva ventana">
+          <a href="https://www.facebook.com/gobmexico" target="_blank" rel="noopener" className="footer" title="enlace a facebook abre en una nueva ventana">
             <img alt="Facebook" src="https://framework-gb.cdn.gob.mx/landing/img/facebook.png" />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/GobiernoMX" target="_blank" rel="noopener" class="footer" title="Enlace a twitter abre en una nueva ventana">
+          <a href="https://twitter.com/GobiernoMX" target="_blank" rel="noopener" className="footer" title="Enlace a twitter abre en una nueva ventana">
             <img alt="Twitter" src="https://framework-gb.cdn.gob.mx/landing/img/twitter.png" />
           </a>
         </li>
