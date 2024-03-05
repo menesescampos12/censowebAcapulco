@@ -57,7 +57,7 @@ const Form = () => {
 
     <h1> Pagina de Censados</h1>
 
-  
+     
      
     <section class="container top-products">
         <h1 class="heading-1">Acapulco  Huracan Otis</h1>
@@ -195,7 +195,10 @@ const Form = () => {
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
+     
+
+    <iframe width="1100" height="400" src="https://www.youtube.com/embed/lOEFMSyGyiE?si=2H0Dcd9pB-gAr9ai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
     <div class="slider">
