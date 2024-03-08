@@ -85,11 +85,11 @@ const Form = () => {
           <i className="fa-solid fa-star" />
           <i className="fa-regular fa-star" />
         </div>
-        <h3>pagos censos</h3>
+        <h3>Calendario de pago</h3>
         <span className="add-cart">
           <i className="fa-solid fa-basket-shopping" />
         </span>
-        <p className="price">inician los pagos </p>
+        <p className="price">Inicio de pago</p>
       </div>
     </div>
     <div className="card-product">
