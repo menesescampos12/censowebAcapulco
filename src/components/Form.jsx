@@ -255,8 +255,8 @@ const Form = () => {
       <section className="banner">
     <div className="content-banner">
         <p>Secretaria de Bienestar</p>
-        <h2>Damnificado por el Huracán Otis<br /></h2>
-        <a href="">Dacnificados</a>
+        <h2>Damnificados por el Huracán Otis<br /></h2>
+        <a href="">Damnificados</a>
     </div>
 </section>
 
@@ -265,14 +265,14 @@ const Form = () => {
         <div className="card-feature">
             <i className="fa-solid fa-plane-up"></i>
             <div className="feature-content">
-                <span>Pagos para dacnificados</span>
-                <p>del 8 a l 24 de diciembre</p>
+                <span>Pagos para damnificados</span>
+                <p>Del 8 al 24 de diciembre</p>
             </div>
         </div>
         <div className="card-feature">
             <i className="fa-solid fa-wallet"></i>
             <div className="feature-content">
-                <span>programa de censados acapulco</span>
+                <span>Programa de censados acapulco</span>
                 <p>Para ubicar el Módulo de Bienestar que te corresponde, consulta la página oficial: gob.mx/bienestar</p>
             </div>
         </div>
@@ -293,7 +293,7 @@ const Form = () => {
         <div className="card-feature">
             <i className="fa-solid fa-headset"></i>
             <div className="feature-content">
-                <span>Apoyo para recontruccion</span>
+                <span>Apoyo para la reconstrucción</span>
                 <p>Talón del cobro de apoyo para limpieza –original</p>
             </div>
         </div>
