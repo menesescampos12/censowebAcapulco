@@ -265,7 +265,7 @@ const Form = () => {
         <div className="card-feature">
             <i className="fa-solid fa-plane-up"></i>
             <div className="feature-content">
-                <span>Pagos para damnificados</span>
+                <span>Los pagos empiezan</span>
                 <p>Del 8 al 24 de diciembre</p>
             </div>
         </div>
@@ -279,14 +279,11 @@ const Form = () => {
         <div className="card-feature">
             <i className="fa-solid fa-gift"></i>
             <div className="feature-content">
-                <span>Apoyo de pagos</span>
-                <p>Talón del censo –original–
-
-•           Identificación oficial con fotografía –original y copia–
-
-•           CURP –copia-
-
-•           Comprobante de domicilio –original y copia–</p>
+                <span>Requisitos para recibir el apoyo</span>
+                <p>Talón del censo (Original)
+         Identificación oficial con fotografía (Original y copia)
+           CURP (Copia)
+           Comprobante de domicilio (Original y copia)</p>
             </div>
             
         </div>
