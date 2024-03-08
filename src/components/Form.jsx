@@ -272,7 +272,7 @@ const Form = () => {
         <div className="card-feature">
             <i className="fa-solid fa-wallet"></i>
             <div className="feature-content">
-                <span>Programa de censados acapulco</span>
+                <span>Verificar módulo, hora y fecha</span>
                 <p>Para ubicar el Módulo de Bienestar que te corresponde, consulta la página oficial: gob.mx/bienestar</p>
             </div>
         </div>
@@ -290,8 +290,9 @@ const Form = () => {
         <div className="card-feature">
             <i className="fa-solid fa-headset"></i>
             <div className="feature-content">
-                <span>Apoyo para la reconstrucción</span>
-                <p>Talón del cobro de apoyo para limpieza –original</p>
+                <span>Requisitos para recibir el segundo apoyo</span>
+                <p>Talón del cobro de apoyo para limpieza (original)</p>
+                <p>INE (Original y copia)</p>
             </div>
         </div>
     </section>
