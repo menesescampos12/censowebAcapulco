@@ -255,7 +255,7 @@ const Form = () => {
       <section className="banner">
     <div className="content-banner">
         <p>Secretaria de Bienestar</p>
-        <h2>Dacnificados por el huracan Otis<br /></h2>
+        <h2>Damnificado por el Huracán Otis<br /></h2>
         <a href="">Dacnificados</a>
     </div>
 </section>
